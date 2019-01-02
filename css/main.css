@@ -67,13 +67,12 @@ li {
 /* ------------------------------------ */
 
 input {
-    display: block;
+   
     outline: none;
     border: none !important;
 }
 
 textarea {
-    display: block;
     outline: none;
 }
 
@@ -124,15 +123,17 @@ iframe {
     display: -webkit-flex;
     display: -moz-box;
     display: -ms-flexbox;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     padding: 33px 33px;
+    
 }
 
 .wrap-table100 {
     width: 1200px;
+    margin: 0 auto;
 }
 
 table {
@@ -248,13 +249,13 @@ tbody tr:hover {
 
 @media screen and (max-width: 992px) {
     table {
-        display: block;
+        
     }
     table > *,
     table tr,
     table td,
     table th {
-        display: block;
+        
     }
     table thead {
         display: none;
@@ -333,18 +334,17 @@ i {
     margin: 0 auto;
 }
 
-.header {
-    height: 120px;
-}
 
 .logo {
-    width: 250px;
-    display: flex;
+    width: 400px;
+    margin-left: -180px;
+    margin-top: 100px
 }
 
 .header {
     width: 50px;
-    height: 50px;
+    height: 300px;
     display: flex;
-    margin-right: 220px;
+    margin: 0 auto;
+    
 }
