@@ -132,7 +132,7 @@ iframe {
 }
 
 .wrap-table100 {
-    width: 1100px;
+    width: 1200px;
 }
 
 table {
@@ -338,16 +338,13 @@ i {
 }
 
 .logo {
-    margin-top: -750px;
     width: 250px;
-    margin-left: 470px;
+    display: flex;
 }
 
-.header{
-   width: 50px;
+.header {
+    width: 50px;
     height: 50px;
-   display: flex;
+    display: flex;
+    margin-right: 220px;
 }
-
-
-
