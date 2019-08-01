@@ -2,9 +2,12 @@
 (function ($) {
     "use strict";
 
-    var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);    
+    var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
 
-    if(iOS)
-    	$('video').hide();
+    if(!iOS)
+    {
+    	let v = $('#tmpl').html().trim();
+		$("#containerForVideo").append(v);
+    }
 
 })(jQuery);
